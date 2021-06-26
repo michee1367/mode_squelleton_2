@@ -1,0 +1,43 @@
+{
+  "name": "maaggo_pay",
+  "version": "1.0.0",
+  "description": "gere le payment de maaggo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "payment",
+    "m-pesa",
+    "orange-money",
+    "airtel-money",
+    "mobile-money",
+    "web-money"
+  ],
+  "author": "Michée NKUSU",
+  "license": "MIT",
+  "dependencies": {
+    "awilix": "^4.3.4",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jose": "^3.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.15",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-oauth2-client-password": "^0.1.2",
+    "passport-strategy": "^1.0.0",
+    "string-format": "^2.0.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
+  }
+}
